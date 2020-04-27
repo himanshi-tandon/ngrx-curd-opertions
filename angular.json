@@ -21,7 +21,8 @@
             "aot": true,
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/db.json"
             ],
             "styles": [
               "src/styles.css"
@@ -119,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ngrxcurdopertions"
+    }
+  },
+  "defaultProject": "ngrxcurdopertions",
+  "cli": {
+    "analytics": false
+  }
 }
